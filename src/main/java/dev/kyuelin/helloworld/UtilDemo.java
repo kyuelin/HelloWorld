@@ -11,4 +11,6 @@ public class UtilDemo {
     public static String sayHello() {
         return "hello";
     }
+
+    public static String sayWorld() { return "world"; }
 }
