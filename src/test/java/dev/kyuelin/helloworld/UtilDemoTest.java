@@ -9,6 +9,12 @@ import static org.junit.Assert.assertEquals;
  */
 public class UtilDemoTest {
     @Test
+    public void sayWorld() {
+        assertEquals("world", new UtilDemo().sayWorld());
+
+    }
+
+    @Test
     public void sayHello() {
         assertEquals("hello", new UtilDemo().sayHello());
     }
