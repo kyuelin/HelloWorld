@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>02 A Trivial Applet Subclass</title>
+</head>
+
+<body>
+<center>
+    <h1>Shumail Jonathan</h1>
+    <h2>CISC 7124<br>
+        Applets<Br>
+        02 An Applet Subclass</h2>
+</center>
+
+<h3>Applets</h3>
+
+<table border=1>
+    <tr>
+        <td>
+            <applet code="AnAppletSubclass.class"
+                    codebase="/out/production/02-AnAppletSubclass/"
+                    width=300 height=400>
+                <param name="red" value="110">
+                <param name="blue" value="40">
+                <param name="green" value="120">
+            </applet>
+            <br>
+        </td>
+    </tr>
+</table>
+<br>
+<table border=1>
+    <tr>
+        <td>
+            <applet code="AnAppletWithParms.class"
+                    codebase="/out/production/03-AnAppletWithParameters/"
+                    width=50 height=50>
+                <param name="operand1" value="12">
+                <param name="operand2" value="29">
+                <param name="operand3" value="/">
+            </applet>
+            <br>
+        </td>
+    </tr>
+</table>
+<!--
+<br>
+<table border=1>
+    <tr>
+        <td>
+            <applet code="AnAppletSubclass2.class" width=50 height=50></applet>
+            <br>
+    </tr>
+</table>
+<br>
+<table border=1>
+    <tr>
+        <td>
+            <applet code="AnAppletSubclass3.class" width=50 height=50></applet>
+            <br>
+    </tr>
+</table>
+<br>
+<table border=1>
+    <tr>
+        <td>
+            <applet code="AnAppletSubclass4.class" width=50 height=50></applet>
+            <br>
+    </tr>
+</table>
+<br>
+-->
+
+<h3>API and Other Questions</h3>
+<ul>
+    <li>Classes
+        <ul>
+            <li>Find the <code>Applet</code> and <code>Color</code> classes
+            </li>
+            <li><font color="red">What packages are they in?</font>
+                <ul>
+                    </li><font color="blue"> Applet class is in the java.applet package, while the Color class is in the
+                    java.awt package.</font>
+                    </li></ul>
+            </li>
+            <li>The <code>Applet</code> class
+                <ul>
+                    <li><font color="red">What package is it in?</font>
+                        <ul>
+                            </li><font color="blue"> Applet class is in the java.applet package. </font></ul>
+                    </li>
+                    <li><font color="red">Find the <code>init</code> method - in which class is it defined?</font>
+                        <ul>
+                            </li><font color="blue">The init method is defined in the java.applet.Applet class. </font>
+                        </ul>
+                    </li>
+                    <li><font color="red">Find the <code>paint</code> method - in which class is it defined?</font>
+                        <ul>
+                            </li><font color="blue"> The paint method is defined the java.awt.Container class. </font>
+                            <ul>
+                                </li></ul>
+                            </li>
+                            <li>The <code>Color</code> class
+                                <ul>
+                                    <li><font color="red">What package is it in?</font>
+                                        <ul>
+                                            </li><font color="blue">The Color class is in the java.awt package.</font>
+                                        </ul>
+                                    </li>
+                                    <li><font color="red">What other color constants are there (just answer with a
+                                        few)?</font>
+                                        <ul>
+                                            </li><font color="blue"> Some examples of other color constants are red,
+                                            blue, orange, and black. </font>
+                                            </li></ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><font color="red">What constructors does this class offer -- i.e. how can you create
+                                your own <code>Color</code>
+                                objects?</font>
+                        </ul>
+                        <ul>
+                            <ul>
+                                </li><font color="blue">The class offers the color constructor which you you can use to
+                                create your one color object by passing it values. </font>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
